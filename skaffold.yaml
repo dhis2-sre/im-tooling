@@ -1,0 +1,10 @@
+apiVersion: skaffold/v2beta25
+kind: Config
+metadata:
+  name: im-cluster-dev
+requires:
+  - path: ../im-user/skaffold.yaml
+  - path: ../go-api-gateway/skaffold.yaml
+  - path: ../im-manager/skaffold.yaml
+  - path: ../im-database-manager/skaffold.yaml
+  - path: ../im-inspector/skaffold.yaml
