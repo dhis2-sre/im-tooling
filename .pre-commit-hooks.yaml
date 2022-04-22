@@ -1,6 +1,6 @@
 - id: swagger-validation
   name: swagger validation
-  entry: make swagger-check
+  entry: make swagger
   pass_filenames: false
   language: system
   files: '\.go$'
