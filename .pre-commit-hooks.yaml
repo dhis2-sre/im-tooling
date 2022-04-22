@@ -1,0 +1,8 @@
+- id: swagger-validation
+  name: swagger validation
+  entry: make swagger-check
+  pass_filenames: false
+  language: system
+  files: '\.go$'
+  description: Hook to ensure the swagger spec is valid and an up-to-date version is commited.
+
