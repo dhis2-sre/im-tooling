@@ -8,6 +8,7 @@ The following is a quick guide on what you need to develop the DHIS2 instance ma
 
 Install the following
 
+* Go - https://go.dev/
 * Interact with Kubernetes using kubectl - https://kubernetes.io/docs/tasks/tools/
 * Kubernetes package manager - https://helm.sh/
 * Encrypt/Decrypt secrets - https://github.com/mozilla/sops
@@ -27,4 +28,15 @@ Copy .env.example to .env
 Update the ENVIRONMENT to match your environment
 
 Run `skaffold dev`
+
+## Develop
+
+Every repo you checked out has a `Makefile`. Consider this the entry point.
+
+Start by calling
+
+    make init
+
+to setup [pre-commit hooks](https://pre-commit.com/). This ensures the code we
+add follows some common conventions.
 
