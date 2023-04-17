@@ -3,8 +3,6 @@ kind: Config
 metadata:
   name: im-cluster-dev
 requires:
-  - path: ../im-user/skaffold.yaml
-  - path: ../go-api-gateway/skaffold.yaml
-  - path: ../im-web-client/skaffold.yaml
   - path: ../im-manager/skaffold.yaml
+  - path: ../im-web-client/skaffold.yaml
   - path: ../im-inspector/skaffold.yaml
