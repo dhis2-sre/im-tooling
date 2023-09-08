@@ -1,8 +1,10 @@
-apiVersion: skaffold/v2beta25
+apiVersion: skaffold/v4beta6
 kind: Config
 metadata:
   name: im-cluster-dev
 requires:
   - path: ../im-manager/skaffold.yaml
+    activeProfiles:
+      - name: dev
   - path: ../im-web-client/skaffold.yaml
   - path: ../im-inspector/skaffold.yaml
