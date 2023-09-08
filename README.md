@@ -25,7 +25,7 @@ satisfying the path locations.
 
 Copy .env.example to .env
 
-Update the ENVIRONMENT to match your environment
+Update the `ENVIRONMENT` and `CLASSIFICATION` variables to match your environment.
 
 Run `skaffold dev`
 
