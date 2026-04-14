@@ -7,4 +7,3 @@ requires:
     activeProfiles:
       - name: dev
   - path: ../im-web-client/skaffold.yaml
-  - path: ../im-inspector/skaffold.yaml
